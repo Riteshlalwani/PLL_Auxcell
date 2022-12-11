@@ -157,11 +157,11 @@ Running design
   * Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
   * Madhav Rao, Professor, IIIT-Bangalore.
   * Nanditha Rao, Professor, IIIT-Bangalore.
-  * Vasanthi D R, PhD Scholar, International Institute of Information Technology, Bangalore vasanthidr11@gmail.com
+  * Vasanthi D R, PhD Scholar, International Institute of Information Technology, Bangalore
 
 ## Contact Information
 
-  *Ritesh Lalwani, Post Graduate student, IIIT Bangalore, ritesh.lalwani@iiitb.ac.in
+  * Ritesh Lalwani, Post Graduate student, IIIT Bangalore, ritesh.lalwani@iiitb.ac.in
   * Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
   * Madhav Rao, Professor, IIIT-Bangalore. mr@iiitb.ac.in
   * Nanditha Rao, Professor, IIIT-Bangalore. nanditha.rao@iiitb.ac.in
