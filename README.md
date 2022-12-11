@@ -11,17 +11,24 @@ More About OpenFASoC: https://openfasoc.readthedocs.io/en/latest/
 
 Phase Lock Loop (PLL) is a system that consists of three major parts; Phase Frequency Detector (PFD), Charge Pump and Loop Filter, and Voltage Controlled Oscillator (VCO). A PLL is highly preferred because it is a feedback system that compares the output frequency from the input frequency and can survive in a single chip. A PLL is normally used in well-timed clock generator, recovery of signal from noisy communication channel and high performance wireless with additional application in PLL’s parts
 
+![PLL](https://user-images.githubusercontent.com/110079763/206902456-795412e8-caba-44ee-948b-121798dc1cb1.png)
+
+
 ## Charge Pump
 
 The charge pump circuit is connected with loop filter and located within PFD and VCO. Charge pump is functioning as a converter for the logic states of the PFD into an analog signal in order to control the VCO. The frequency of the VCO is controlled by the output signal of the charge pump circuit. The output voltage of the charge pump circuit must be held at a constant voltage, when PLL locks in some frequency. The charge pump consists of two switched current source that pump charge in or out of the
 loop filter according to two logical inputs.
 
+![CP](https://user-images.githubusercontent.com/110079763/206902465-51f3c27a-219a-4a0c-b768-72321d4f9ed4.png)
 
 # Phase frequency detector
+![PFD](https://user-images.githubusercontent.com/110079763/206902472-fdc42b56-e77f-4ea3-8196-719e90638ee0.png)
 
-#Frequency Divider
+# Frequency Divider
+![FDD](https://user-images.githubusercontent.com/110079763/206902481-f9512a87-907c-4027-8454-f614a1c85504.png)
 
-#VCO
+# VCO
+![VCO](https://user-images.githubusercontent.com/110079763/206902490-9021933d-ac0f-4eaf-bcc7-464abacefee9.png)
 
 
 # MY TASK: Generating AUX CELLS for OpenFASoC Flow
@@ -120,15 +127,18 @@ schematic2layout.py <NETLIST_DIR> -p <PDK_DIR> -c
 #### FLOW
 
 Creating a Python virtualenv
+![PYTHON](https://user-images.githubusercontent.com/110079763/206902533-2dc7c419-86ac-437d-b154-55b74f0c2764.png)
 
 Running design
+![ALIGN1](https://user-images.githubusercontent.com/110079763/206902537-b4ba353a-4604-4b2e-a3be-0f8d9638c7a2.png)
+![ALIGN2](https://user-images.githubusercontent.com/110079763/206902541-b9fa1995-dd98-4cbc-aa1e-8f313ea0d0a5.png)
 
 #### Generated .lef and .gds
 
-#GDS
+# GDS
 
 
-#LEF
+# LEF
 
 # FUTURE WORK
 
