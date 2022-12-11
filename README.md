@@ -137,8 +137,10 @@ Running design
 
 # GDS
 
+![GDS](https://user-images.githubusercontent.com/110079763/206902674-74e3c306-c16d-4ed5-9f42-9ec61c75d609.png)
 
 # LEF
+![LEF](https://user-images.githubusercontent.com/110079763/206902686-155a089e-d283-4bbb-9230-e02317618c4b.png)
 
 # FUTURE WORK
 
